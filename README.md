@@ -24,3 +24,6 @@
   source ~/robotic_task/robotic_arm/devel/setup.bash
   echo 'source ~/robotic_task/robotic_arm/devel/setup.bash' >> ~/.bashrc
   ```
+- Then please move to the;
+```cd ~/robotic_task/robotic_arm/``` and run ```roslaunch panda_moveit_config demo.launch``` on the terminal.
+- In another terminal please run the ```rosrun robotic robotic.py```
