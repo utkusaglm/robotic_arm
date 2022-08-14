@@ -2,8 +2,9 @@
 * Please install the moveit noetic : https://wiki.ros.org/noetic/Installation/Ubuntu
 ## There are two ways to run the code;
   - You can use run_build.sh script to built packages for you.
+  ```bash run_build.sh```
   OR
-  - You can manualy built with following the run_build.sh
+  - You can manualy built with following commands
   
   ```
   rosdep update
