@@ -1,0 +1,6 @@
+<launch>
+
+  <node name="robotic" pkg="robotic" type="robotic.py" respawn="false" output="screen">
+  </node>
+
+</launch>
