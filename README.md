@@ -29,4 +29,9 @@
 ```cd ~/robotic_task/robotic_arm/``` and run ```roslaunch panda_moveit_config demo.launch``` on the terminal.
 - In another terminal please run the ```rosrun robotic robotic.py```
 - Video : https://www.youtube.com/watch?v=SjgvFNFlToI
+
 ![Ekran Resmi 2022-08-15 00 13 33](https://user-images.githubusercontent.com/58150504/184555134-fe33974c-85d8-4c15-9720-fb7239c884a8.png)
+
+
+# Sources
+- https://moveit.ros.org

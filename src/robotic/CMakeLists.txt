@@ -27,7 +27,7 @@ find_package(Eigen3 REQUIRED)
 find_package(Boost REQUIRED system filesystem date_time thread)
 
 set(THIS_PACKAGE_INCLUDE_DIRS
-  doc/interactivity/include
+  interactivity/include
 )
 
 catkin_package(
@@ -50,4 +50,4 @@ catkin_package(
 include_directories(${THIS_PACKAGE_INCLUDE_DIRS})
 include_directories(SYSTEM ${catkin_INCLUDE_DIRS} ${Boost_INCLUDE_DIR} ${EIGEN3_INCLUDE_DIRS})
 
-add_subdirectory(doc/robotic_arm_code)
+add_subdirectory(robotic_arm_code)
